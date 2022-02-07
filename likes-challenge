@@ -1,0 +1,21 @@
+def likes(names):
+    
+    number_likes = len(names)-2
+    
+    number_likes2 = str(number_likes)
+    
+    if len(names) == 0:
+        print('no one likes this')
+    
+    elif names[0] == names[-1]:
+        print(names[0] + ' likes this')
+    elif names[1] == names[-1]:
+        print(names[0] + ' and ' + names[1] + ' like this')
+    elif names[2] == names[-1]:
+        print(names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this')
+    else:
+        print(names[0] + ', ' + names[1] + ' and ' + number_likes2 + ' others like this')
+        
+
+    
+    pass
