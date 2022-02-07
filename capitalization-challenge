@@ -1,0 +1,14 @@
+#import stringcase
+def to_jaden_case(string):
+    # ...
+    
+    str_array = str.split(string);
+    new_words = []
+    
+    for word in str_array:
+        new_word = word.replace(word, word.capitalize())
+        new_words.append(new_word)
+ 
+    string2 = ' '.join(new_words)    
+    return string2
+    
